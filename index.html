@@ -784,5 +784,6 @@ document.getElementById('importFile').addEventListener('change',e=>{const file=e
 document.getElementById('resetBtn').addEventListener('click',()=>{if(!confirm('この端末の履歴・お気に入り・自作材料をすべて削除します。元に戻せません。'))return;localStorage.removeItem(STORAGE_KEY);state=L.createDefaultState();openView=null;renderMoods();renderCurrentCard();alert('データを削除しました。');showScreen('home');});
 
 </script>
+<!-- Journumbering v1.0 redeploy -->
 </body>
 </html>
